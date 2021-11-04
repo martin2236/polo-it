@@ -32,6 +32,8 @@
   <link rel="stylesheet" href="assets/vendor/fancybox/css/jquery.fancybox.css">
 
   <link rel="stylesheet" href="assets/css/theme.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
@@ -89,17 +91,17 @@
             <li class="nav-item ">
               <a href="blog.html" class="nav-link">Noticias</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item active dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Socios
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="portfolio.html">Afiliados</a>
                 <a class="dropdown-item" href="associate.html">Asociarse</a>
-                <a class="dropdown-item" href="benefits.html">Beneficios</a>
+                <a class="dropdown-item" href="">Beneficios</a>
               </div>
             </li>
-            <li class="nav-item active dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Capacitaciones & servicios
               </a>
@@ -117,17 +119,17 @@
       </div> <!-- .container -->
     </nav> <!-- .navbar -->
 
-    <div class="page-banner bg-img bg-img-parallax overlay-dark" style="background-image: url(assets/img/banner-servicios.jpg);">
+    <div class="page-banner bg-img bg-img-parallax overlay-dark" style="background-image: url(assets/img/banner-socios.jpg);">
       <div class="container h-100">
         <div class="row justify-content-center align-items-center h-100">
           <div class="col-lg-8">
             <nav aria-label="breadcrumb">
               <ol class="breadcrumb breadcrumb-dark bg-transparent justify-content-center py-0">
                 <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Servicios</li>
+                <li class="breadcrumb-item active" aria-current="page">Beneficios</li>
               </ol>
             </nav>
-            <h1 class="fg-white text-center">Servicios</h1>
+            <h1 class="fg-white text-center">Beneficios</h1>
           </div>
         </div>
       </div>
@@ -137,91 +139,157 @@
   <main>
     <div class="page-section">
       <div class="container">
-        <div class="text-center">
-          
-          <h2 class="title-section text-primary">Estos son algunos de nuestros servicios</h2>
+
+    <div class="row g-3 border mb-5 border-2 " style="min-height: 100px;">
+        <div class="row g-1 d-flex justify-content-center align-items-center " style="min-height: 60px;">
+          <div class="d-flex justify-content-center align-items-center " style="width: 60px; height: 60px; background-color: #08367f; border-radius: 50%;">
+            <i class="fas fa-gifts" style="color: #fff; font-size: 30px;"></i>
+          </div>
         </div>
-
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/web_development.svg" alt="">
-              </div>
-              <h5>Web Development</h5>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/graphics_design.svg" alt="">
-              </div>
-              <h5>Graphics Design</h5>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/seo_and_marketing.svg" alt="">
-              </div>
-              <h5>SEO & Marketing</h5>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/customer_services.svg" alt="">
-              </div>
-              <h5>Customer Services</h5>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/app_development.svg" alt="">
-              </div>
-              <h5>App Development</h5>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/ui_ux_design.svg" alt="">
-              </div>
-              <h5>UI/UX Design</h5>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/product_design.svg" alt="">
-              </div>
-              <h5>Product Design</h5>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 col-xl-3 py-3 mb-3">
-            <div class="text-center">
-              <div class="img-fluid mb-4">
-                <img src="assets/img/icons/data_analyst.svg" alt="">
-              </div>
-              <h5>Data Analyst</h5>
-            </div>
-          </div>
-
+        <div class="row g-1 r" style="min-height: 60px;">
+          <h2 class="text-primary text-center mb-5"> <u> Beneficios especiales</u></h2>
         </div>
+        
+        <div class="row g-1 mb-3 d-flex justify-content-around " style="min-height: 60px;">
+          <div class="col-md-5 d-flex" data-aos="fade-right" style="min-height: 50px;" >
+            <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            Beneficios exclusivos para socios contratando planes de Sancor Salud.
+          </p>
+        </div>
+        <div class="col-md-5 d-flex" data-aos="fade-left" style="min-height: 50px;" >
+        <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            Beneficios corporativos para la adquisición de productos y servicios para sus propias empresas.
+          </p>
+        </div>
+      </div>
+      <div class="row g-1  d-flex justify-content-around " style="min-height: 60px;">
+        <div class="col-md-5 d-flex" data-aos="fade-right" style="min-height: 50px;" >
+          <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+           Descuentos para eventos locales, regionales y nacionales: DigitalNea, InternetDay, etc.
+          </p>
+      </div>
+      <div class="col-md-5 d-flex" data-aos="fade-left" style="min-height: 50px;" >
+        <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            Posibilidad de participar como jurado en distintos premios del Sector.
+          </p>
+      </div>
+    </div>
+
+  </div>
+  
+    <div class="row g-3 border mb-5 border-2 mt-3" style="min-height: 100px;">
+
+      <div class="row g-1 d-flex justify-content-center align-items-center " style="min-height: 60px;">
+
+        <div class="d-flex justify-content-center align-items-center " style="width: 60px; height: 60px; background-color: #08367f; border-radius: 50%;">
+          <i class="fas fa-globe" style="color: #fff; font-size: 30px;"></i>
+        </div>
+     
+      </div>
+      <div class="row mb-5 g-1 r" style="min-height: 60px;">
+      <h2 class="text-primary text-center"> <u>Acceso a la información</u></h2>
+      </div>
+      <div class="row g-1  d-flex justify-content-around " style="min-height: 60px;">
+
+        <div class="col-md-5 d-flex" data-aos="fade-right" style="min-height: 50px;" >
+          <i class="fas fa-check me-3 mt-1 text-primary"></i>
+        <p>
+          Directorio de empresas asociadas al Polo IT Corrientes.
+        </p>
+      </div>
+        <div class="col-md-5 d-flex" data-aos="fade-left" style="min-height: 50px;" >
+        <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            Encuestas, estudios y censos realizados por el Polo IT Corrientes y entidades del sector.
+          </p>
+        </div>
+      </div>
+      <div class="row g-1  d-flex justify-content-around " style="min-height: 60px;">
+        <div class="col-md-5 d-flex" data-aos="fade-right" style="min-height: 50px;" >
+          <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            Encuentros y actividades de las entidades del Sector.
+          </p>
+      </div>
+      <div class="col-md-5 d-flex" data-aos="fade-left" style="min-height: 50px;" >
+        <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            El Polo IT Corrientes busca y participa de encuestas e informes que nutren a la industria y que son constantemente compartidos por los socios.
+          </p>
+      </div>
+    </div>
+    </div>
+
+    <div class="row g-3 mb-5 border border-2 mt-3" style="min-height: 100px;">
+
+      <div class="row g-1 d-flex justify-content-center align-items-center " style="min-height: 60px;">
+
+        <div class="d-flex justify-content-center align-items-center " style="width: 60px; height: 60px; background-color: #08367f; border-radius: 50%;">
+          <i class="fas fa-handshake" style="color: #fff; font-size: 30px;"></i>
+        </div>
+     
+      </div>
+      <div class="row g-1 mb-5" style="min-height: 60px;">
+      <h2 class="text-primary text-center"> <u>Relaciones públicas</u></h2>
+      </div>
+     
+
+      <div class="row g-1  d-flex justify-content-around " style="min-height: 60px;">
+        <div class="col-md-5 d-flex" data-aos="fade-right" style="min-height: 50px;" >
+          <i class="fas fa-check me-3 mt-1 text-primary"></i>
+        <p>
+          El Polo IT Corrientes está en contacto con diferentes instituciones gubernamentales que nos acercan propuestas y reciben a los socios de la asociación.
+        </p>
+      </div>
+        <div class="col-md-5 d-flex" data-aos="fade-left" style="min-height: 50px;" >
+        <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            Relaciones con cámaras afines (Cessi, CAPI, FEC, AJEC, etc.) para desarrollar actividades en conjunto.
+          </p>
+        </div>
+      </div>
+     
+    </div>
+
+    <div class="row g-3 border border-2 mt-3" style="min-height: 100px;">
+
+      <div class="row g-1 d-flex justify-content-center align-items-center " style="min-height: 60px;">
+
+        <div class="d-flex justify-content-center align-items-center " style="width: 60px; height: 60px; background-color: #08367f; border-radius: 50%;">
+          <i class="fas fa-globe-americas" style="color: #fff; font-size: 30px;"></i>
+        </div>
+     
+      </div>
+      <div class="row g-1 r" style="min-height: 60px;">
+      <h2 class="text-primary mb-5 text-center"> <u>Networking</u></h2>
+      </div>
+
+      <div class="row g-1  d-flex justify-content-around " style="min-height: 60px;">
+        <div class="col-md-5 d-flex" data-aos="fade-right" style="min-height: 50px;" >
+          <i class="fas fa-check me-3 mt-1 text-primary"></i>
+        <p>
+          En nuestra asociación se encuentra la mayor cadena de trabajo de producción y servicios de la industria del conocimiento de la provincia de Corrientes.
+        </p>
+      </div>
+        <div class="col-md-5 d-flex" data-aos="fade-left" style="min-height: 50px;" >
+        <i class="fas fa-check me-3 mt-1 text-primary"></i>
+          <p>
+            Constantemente la asociación está reclutando recursos (programadores / diseñadores / docentes / instructores) para vincular a proyectos externos, propios, de privados, capacitaciones o programas que organiza con empresas privadas, instituciones o ministerios (Club de Chicas Programadoras, Plan 111Mil, Empleatec, etc.).
+          </p>
+        </div>
+      </div>
+     
+    </div>
+   
       </div> <!-- .container -->
     </div> <!-- .page-section -->
 
    
-        </div> <!-- .row -->
-      </div> <!-- .container -->
-    </div> <!-- .page-section -->
+      
 
     <div class="page-section">
       <div class="container-fluid">
@@ -312,6 +380,11 @@
 <script src="assets/js/google-maps.js"></script>
 
 <script src="assets/js/theme.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
