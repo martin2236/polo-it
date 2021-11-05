@@ -390,8 +390,7 @@
         </div>
         <div class="col-lg-3 py-3">
           <h5>Información de Contacto</h5>
-          <p>Calle falsa 123, Partido de la costa, Mar de ajó.</p>
-          <p>Email: example@mail.com</p>
+          <p>Email: consultas@poloitlacosta.com</p>
           <p>Teléfono: +54 1123980</p>
         </div>
         <div class="col-lg-3 py-3">
